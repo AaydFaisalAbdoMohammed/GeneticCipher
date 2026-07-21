@@ -21,7 +21,10 @@
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "يحتاج التطبيق إلى موقعك لتوليد بصمتك الوراثية الفريدة",
         "NSCameraUsageDescription": "يحتاج التطبيق إلى الكاميرا للتحقق من الهوية",
-        "UIBackgroundModes": ["fetch", "remote-notification"]
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ]
       }
     },
     "android": {
@@ -47,8 +50,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "your-eas-project-id"
+        "projectId": "377eb7c6-cbdc-4d39-b01e-9f77928ec018"
       }
-    }
+    },
+    "owner": "ayadfaisal"
   }
 }
