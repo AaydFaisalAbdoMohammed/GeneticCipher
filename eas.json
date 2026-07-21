@@ -1,11 +1,10 @@
 {
   "cli": {
     "version": ">= 0.62.0",
-    "appVersionSource": "app.json"
+    "appVersionSource": "local"
   },
   "build": {
     "preview": {
-      "projectId": "377eb7c6-cbdc-4d39-b01e-9f77928ec018",
       "android": {
         "buildType": "apk"
       },
