@@ -1,5 +1,5 @@
 {                                           "expo": {
-    "name": "Genetic Cipher",                 "slug": "genetic-cipher",                 "version": "1.0.0",,
+    "name": "Genetic Cipher",                 "slug": "genetic-cipher",                 "version": "1.0.0",
     "plugins": [                                [
         "expo-build-properties",                  {
           "android": {                                "kotlinVersion": "1.9.25",
