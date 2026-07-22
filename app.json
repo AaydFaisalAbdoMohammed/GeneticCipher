@@ -2,7 +2,7 @@
     "name": "Genetic Cipher",                 "slug": "genetic-cipher",                 "version": "1.0.0",,
     "plugins": [                                [
         "expo-build-properties",                  {
-          "android": {                                "kotlinVersion": "1.9.25"
+          "android": {                                "kotlinVersion": "1.9.25",
           }                                       }
       ]                                       ]
     "orientation": "portrait",                "icon": "./src/assets/images/icon.png",                                             "userInterfaceStyle": "dark",
@@ -25,7 +25,7 @@
     },                                        "plugins": [
       "expo-secure-store",                      "expo-build-properties"
     ],                                        "extra": {
-      "eas": {                                    "projectId": "377eb7c6-cbdc-4d39-b01e-9f77928ec018"                               }
+      "eas": {                                    "projectId": "377eb7c6-cbdc-4d39-b01e-9f77928ec018",                               }
     },                                        "owner": "ayadfaisal"
   }                                       }
 
