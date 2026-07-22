@@ -1,32 +1,66 @@
-{                                           "expo": {
-    "name": "Genetic Cipher",                 "slug": "genetic-cipher",                 "version": "1.0.0",
-    "plugins": [                                [
-        "expo-build-properties",                  {
-          "android": {                                "kotlinVersion": "1.9.25",
-          }                                       }
-      ]                                       ]
-    "orientation": "portrait",                "icon": "./src/assets/images/icon.png",                                             "userInterfaceStyle": "dark",
-    "splash": {                                 "image": "./src/assets/images/splash.png",                                          "resizeMode": "contain",
-      "backgroundColor": "#0a0a0a"            },
-    "assetBundlePatterns": [                    "**/*"                                  ],
-    "ios": {                                    "supportsTablet": true,
-      "bundleIdentifier": "com.yourcompany.geneticcipher",                                "buildNumber": "1.0.0",                   "infoPlist": {
+{
+  "expo": {
+    "name": "Genetic Cipher",
+    "slug": "genetic-cipher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.geneticcipher",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "يحتاج التطبيق إلى موقعك لتوليد بصمتك الوراثية الفريدة",
-        "NSCameraUsageDescription": "يحتاج التطبيق إلى الكاميرا للتحقق من الهوية",          "UIBackgroundModes": [
-          "fetch",                                  "remote-notification"                   ]
-      }                                       },                                        "android": {
-      "package": "com.yourcompany.geneticcipher",                                         "versionCode": 1,
-      "adaptiveIcon": {                           "foregroundImage": "./src/assets/images/adaptive-icon.png",
-        "backgroundColor": "#0a0a0a"            },                                        "permissions": [
-        "ACCESS_FINE_LOCATION",                   "ACCESS_COARSE_LOCATION",                 "INTERNET",
-        "VIBRATE"                               ],                                        "softwareKeyboardLayoutMode": "pan"
-    },                                        "web": {
+        "NSCameraUsageDescription": "يحتاج التطبيق إلى الكاميرا للتحقق من الهوية",
+        "UIBackgroundModes": [
+          "fetch",
+          "remote-notification"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.yourcompany.geneticcipher",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "INTERNET",
+        "VIBRATE"
+      ],
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
       "favicon": "./src/assets/images/favicon.png"
-    },                                        "plugins": [
-      "expo-secure-store",                      "expo-build-properties"
-    ],                                        "extra": {
-      "eas": {                                    "projectId": "377eb7c6-cbdc-4d39-b01e-9f77928ec018",                               }
-    },                                        "owner": "ayadfaisal"
-  }                                       }
-
-
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.25"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "377eb7c6-cbdc-4d39-b01e-9f77928ec018"
+      }
+    },
+    "owner": "ayadfaisal"
+  }
+}
