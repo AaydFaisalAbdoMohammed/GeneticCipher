@@ -26,7 +26,7 @@ jobs:
         npm install -g expo-cli eas-cli
 
     - name: Build Android
-      run: eas build --platform android --profile preview --non-interactive
+      run: npx eas-cli build --platform android --profile preview --non-interactive
       env:
         EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
 
@@ -49,6 +49,6 @@ jobs:
         npm install -g expo-cli eas-cli
 
     - name: Build iOS
-      run: eas build --platform ios --profile preview --non-interactive
+      run: npx eas-cli build --platform ios --profile preview --non-interactive
       env:
         EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
